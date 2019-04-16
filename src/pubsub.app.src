@@ -1,0 +1,9 @@
+{
+    application, pubsub,
+    [
+        {vsn, "1.0.0"},
+        {modules, [pubsub]},
+        {registered, [pubsub]},
+        {mod, {pubsub, []}}
+    ]
+}.
